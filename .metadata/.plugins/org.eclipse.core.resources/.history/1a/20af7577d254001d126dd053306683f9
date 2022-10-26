@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="https://www.naver.com" name="frm" method="get">
+		<h1>회원수정</h1>
+		<label for="id">ID :</label> <input type="text" name="id" id="id" placeholder="아이디를 입력하세요" maxlength="10"><br> 
+		<label for="pwd">PASSWORD</label> <input type="text" name="pwd" id="pwd" placeholder="8자리 입력하세요" maxlength="5"> <br> 
+		<label for="tel">TELL</label> <input type="tel" name="number" id = "tel" placeholder="번호를 입력하세요" maxlength="11"><br> 
+		<label for= "email">EMAIL</label> <input type="email" name="email" id = " email"><br>
+	</form>
+	<br>
+	<br> 성별
+	<br>
+	<input type="radio" name="gender" value="man">남자
+	<input type="radio" name="gender" value="woman">여자
+	<br> 취미
+	<br>
+	<input type="checkbox" name="game" value="game">게임
+	<input type="checkbox" name="golf" value="golf">골프
+	<input type="checkbox" name="shop" value="shop">쇼핑
+	<input type="checkbox" name="fish" value="fish">낚시
+	<br> 생년원일
+	<input type="date" name="bday">
+	<br> 학과선택
+	<select>
+		<option value="class1" selected>컴퓨터공학</option>
+		<option value="class2">무역학</option>
+		<option value="class3">경영학</option>
+	</select>
+	<br>
+	<textarea name="txtared" rows="5" cols="30"></textarea>
+	<input type="button" value="눌러주세요" onclick="alert('인풋버튼입니다.')">
+	<button type="button" onclick="alert" ('버튼 버튼입니다.')>버튼</button>
+
+</body>
+</html>

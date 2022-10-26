@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<!-- 사용자로부터 값을 입력받을 수 있는 태그 
+
+기본값은 text
+
+-->
+문자입력 : <input type = "text" name="id" placeholder = "아이디를 입력하세요" maxlength ="5"> <br><br>
+숨겨진 정보 : <input type = "hidden" name="id" value = "192.168.0.12"><br><br>
+비밀번호 : <input type = "password" name="pwd"> <br><br>
+
+</body>
+</html>

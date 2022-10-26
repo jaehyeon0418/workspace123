@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;p1024.J1024_03&apos; to &apos;J1024_03_학생점수입력_null_arr&apos;&#x0D;&#x0A;- Original project: &apos;p1024&apos;&#x0D;&#x0A;- Original element: &apos;p1024.J1024_03&apos;&#x0D;&#x0A;- Renamed element: &apos;p1024.J1024_03_학생점수입력_null_arr&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;J1024_03&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;p1024{J1024_03.java[J1024_03" matchStrategy="1" name="J1024_03_학생점수입력_null_arr" qualified="false" references="true" similarDeclarations="false" stamp="1666573923072" textual="false" version="1.0"/>
+</session>

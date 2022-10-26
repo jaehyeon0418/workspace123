@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;p1014.J1014_05&apos; to &apos;J1014_05_로또생성&apos;&#x0D;&#x0A;- Original project: &apos;p1014&apos;&#x0D;&#x0A;- Original element: &apos;p1014.J1014_05&apos;&#x0D;&#x0A;- Renamed element: &apos;p1014.J1014_05_로또생성&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;J1014_05&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;p1014{J1014_05.java[J1014_05" matchStrategy="1" name="J1014_05_로또생성" qualified="false" references="true" similarDeclarations="false" stamp="1666060918195" textual="false" version="1.0"/>
+</session>

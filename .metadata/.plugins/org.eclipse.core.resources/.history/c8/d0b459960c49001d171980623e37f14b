@@ -1,0 +1,17 @@
+package p1011;
+
+public class J1011_06 {
+
+	public static void main(String[] args) {
+		String str = "홍길동";
+		int kor = 100 ;
+		int eng = 100 ;
+		int math = 99 ;
+		
+		System.out.printf("이름  :%s\n",str);
+		System.out.printf("국어  :%d\t",kor);
+		System.out.printf("영어  :%d\t",eng);
+		System.out.printf("수학  :%d\n",math);
+	}
+
+}

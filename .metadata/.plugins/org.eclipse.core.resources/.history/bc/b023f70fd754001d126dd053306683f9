@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link href = "NewFile.css" rel = "stylesheet" type = "text/css">
+<style>
+body{background-color : #fae2d6;}
+*{
+text-align: center; 
+}
+
+div{
+width: 610px;
+}
+
+</style>
+</head>
+<body>
+<div>
+<h1>히메지성, 히로시마 평화기념관 등 세계문화유산 등재지와 시라카와고, 고카야마 등 전통마을 둘러보기</h1>
+<p>이 모든 관광 명소는 일본의 역사가 담긴 대표적인 예이지만, 일본의 지난날을 알아볼 수 있는 명승지는 이외에도 열도 전역에 흩어져 있습니다.<br>
+
+<p>후쿠시마현 의 아이즈와카마쓰의 경우 사무라이의 땅으로 유명합니다. 사무라이 문화를 보여주는 명소가 많은데, 그중에서도 특히 쓰루가성 이 대표적입니다. 조용하지만 잔혹한 암살자 집단인 닌자에 관심이 있다면 미에현  이가우에노 나 시가현  고카 지역 탐방을 추천합니다.<br>
+
+<p>오키나와 남쪽 섬은 본토와는 사뭇 다른 유구한 역사를 자랑합니다. 오래전 멸망한 류큐 왕국의 돌로 된 성벽을 둘러보고 탁월한 예술, 음악과 음식 등 색다른 전통을 만나보세요.<br>
+
+<h1>일본의 세계 유산</h1>
+<table>
+<tr>
+<td><img src="https://res-1.cloudinary.com/jnto/image/upload/w_679,h_450,c_fill,f_auto,fl_lossy,q_auto/v1516757813/nara/Nara2090_2" data-src="https://res-1.cloudinary.com/jnto/image/upload/w_679,h_450,c_fill,f_auto,fl_lossy,q_auto/v1516757813/nara/Nara2090_2"style="width: 150px; alt="일본의 문화유산, 아스카" class=" lazyloaded"></td>
+<td><img src="https://res-2.cloudinary.com/jnto/image/upload/w_679,h_450,c_fill,f_auto,fl_lossy,q_auto/v1513912832/yamagata/Yamagata532_3" data-src="https://res-2.cloudinary.com/jnto/image/upload/w_679,h_450,c_fill,f_auto,fl_lossy,q_auto/v1513912832/yamagata/Yamagata532_3"style="width: 150px; alt="일본의 문화유산, 데와 산잔" class=" lazyloaded"></td>
+<td><img src="https://res-2.cloudinary.com/jnto/image/upload/w_679,h_450,c_fill,f_auto,fl_lossy,q_auto/v1514390323/hiroshima/Hiroshima572_2" data-src="https://res-2.cloudinary.com/jnto/image/upload/w_679,h_450,c_fill,f_auto,fl_lossy,q_auto/v1514390323/hiroshima/Hiroshima572_2"style="width: 150px; alt="일본의 문화유산, 오노미치" class=" lazyloaded"></td>
+<td><img src="https://res-4.cloudinary.com/jnto/image/upload/w_679,h_450,c_fill,f_auto,fl_lossy,q_auto/v1508163161/kochi/Kochi648_3" data-src="https://res-4.cloudinary.com/jnto/image/upload/w_679,h_450,c_fill,f_auto,fl_lossy,q_auto/v1508163161/kochi/Kochi648_3"style="width: 150px; alt="일본의 문화유산, 시코쿠 88 사찰 순례" class=" lazyloaded"></td>
+</tr>
+</table>
+<table>
+<tr>
+<td><h5>일본의 문화유산, 아스카</h5></td>
+<td><h5>일본의 문화유산, 데와 산잔</h5></td>
+<td><h5>일본의 문화유산, 오노미치</h5></td>
+<td><h5>일본의 문화유산, 시코쿠 88 사찰 순례</h5></td>
+</tr>
+</table>
+</div>
+
+
+
+</body>
+</html>

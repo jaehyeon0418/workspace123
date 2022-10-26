@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1> 회원수정 </h1>
+
+ID	<input type="id"  name="id">
+PASSWORD <input type="password"  name="pwd" placeholder="8자리 입력하세요" maxlength="5">
+
+
+</body>
+</html>

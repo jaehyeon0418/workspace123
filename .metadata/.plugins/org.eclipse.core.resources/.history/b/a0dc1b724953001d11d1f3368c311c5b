@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+
+
+<!-- tr : table row
+	 td : table data
+	 colspan 컬러값들을 합치기
+	 rowspan 로 값들을 합치기
+	 
+ -->
+ 
+ <table border="5">
+ 	<tr>
+ 	<td><senter>1</senter></td>
+ 	<td>2</td>
+ 	<td>3</td>
+ 	</tr>
+ 	<tr>
+ 	<td>4</td>
+ 	<td>5</td>
+ 	<td>6</td>
+ 	
+ 	</tr>
+ 	
+ 
+ </table>
+ 
+ 
+ <table border = "1" width = "400" height = "100">
+ 	<tr>
+ 	<td><senter>1</senter></td>
+ 	<td>2</td>
+ 	<td>3</td>
+ 	</tr>
+ 	 	</tr>
+ 	<tr>
+ 	<td>4</td>
+ 	<td>5</td>
+ 	<td>6</td>
+ 	
+ 	</tr>
+ </table>
+ 
+ 
+ 
+ 
+ 
+ 
+ <table border= "1">
+ <tr>
+ <td>수령자</td>
+ <td>수령자의 이용 목적
+ <td>제공하는 항목</td>
+ <td>수령자의 보유.이용기간</td>
+ </tr>
+ </table>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+</body>
+</html>

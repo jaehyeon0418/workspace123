@@ -1,0 +1,31 @@
+package p1011;
+
+public class J1011_02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		char ch = '0';
+		char ch2 = '2';
+		
+//		System.out.println(ch+1);   // char + int => int + int = int
+//		System.out.println((char)(ch+1));   
+		System.out.println(ch2-ch);   
+		
+//		String str = "7";
+//		int num = 7;
+//		int num2 = 7;
+//		char ch = 'A';
+//		
+//		
+//		System.out.println("숫자 :"+num);		   // 	7
+//		System.out.println("숫자 : "+num+num2); //	77
+//		System.out.println(ch);
+//		System.out.println((int)(ch));
+		
+		
+		
+		
+	}
+
+}

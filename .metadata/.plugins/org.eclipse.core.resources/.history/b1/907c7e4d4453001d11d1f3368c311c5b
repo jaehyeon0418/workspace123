@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<!-- ul li ol 목록 -->
+
+<ul>
+
+	<li>해외여행</li>
+	<li>국내여행</li>
+	<li>항공여행</li>
+
+</ul>
+
+<ol>
+	<li>구글</li>
+	<li>css</li>
+	<li>JAVASCRIPT</li>
+</ol>
+
+<ol type="a">
+	<li>구글</li>
+	<li>css</li>
+	<li>JAVASCRIPT</li>
+</ol>
+
+<ol type="i" start=2>
+	<li>구글</li>
+	<li>css</li>
+	<li>JAVASCRIPT</li>
+</ol>
+<ol reversed>
+
+	<li>아메리카노</li>
+	<li>카페라떼</li>
+	<li>핫 초코</li>
+	
+
+</ol>
+
+<ol>
+
+<li>신청기간</li>
+	<ol>
+	<li>1차 : 5.15(화) 자정까지
+	<li>2차 : 5.20(일) 자정까지	
+	</ol>
+<li>심사기간</li>
+	<ol>
+	<li> 1차 :5.16(수)
+	<li> 2차 :5.21(월)
+	</ol>
+<li>선발대상 : 서경대학교 학생이면 누구나!</li>
+<li>운영기간 : 5.23(수) ~ 5.25(금)</li>
+
+</ol>
+
+<h1><b>1박 2일 가족 여행 코스</b></h1>
+<br>
+<ol type = "-";>
+	<li> 1일차</li>
+		<ol type = "a";>
+			<li> 해녀박물관
+			<li> 낚시 체험
+		</ol>
+	<li> 2일차</li>
+		<ol type = "a"; start = 3>
+			<li> 용눈이 오름
+			<li> 만장굴
+			<li> 카약체험
+		</ol>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

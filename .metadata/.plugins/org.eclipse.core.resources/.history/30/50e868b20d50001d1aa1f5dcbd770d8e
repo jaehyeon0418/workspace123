@@ -1,0 +1,23 @@
+package p1020;
+
+import java.util.Scanner;
+
+public class J1020_01 {
+
+	public static void main(String[] args) {
+		
+		
+		int [] num  = new int[25];
+		
+		for (int i = 0; i < 25; i++) {
+			num[i] = i+1;
+		}
+
+		System.out.println("숫자 입력");
+		for (int i = 0; i < 25; i++) {
+			System.out.println("숫자를 입력하세요"+num);
+		}
+		
+	}
+
+}

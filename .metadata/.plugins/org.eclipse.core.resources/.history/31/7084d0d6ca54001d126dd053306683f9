@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="https://www.google.co.kr" name = "frm" method = "get">
+
+<input type = "text" name ="txt">
+<input type = "submit" name ="검색">
+
+</form>
+
+
+
+
+</body>
+</html>

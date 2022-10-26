@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<table border="2">
+		<tr bgcolor="#D9E5FF">
+			<td></td>
+			<td><b><center>월요일</center></b></td>
+			<td><center>화요일</center></td>
+			<td><center>수요일</center></td>
+			<td><center>목요일</center></td>
+			<td><center>금요일</center></td>
+
+		</tr>
+
+		<tr>
+			<td>새벽</td>
+			<td><center>운동</center></td>
+			<td><center>휴식</center></td>
+			<td><center>운동</center></td>
+			<td><center>휴식</center></td>
+			<td><center>운동</center></td>
+		</tr>
+		<tr>
+			<td>아침</td>
+			<td colspan="2"><center>자바</center></td>
+
+			<td colspan="3"><center>웹</center></td>
+
+
+		</tr>
+		<tr>
+			<td>점심</td>
+			<td rowspan="2">일본어 문법</td>
+			<td>일본어 듣기</td>
+			<td rowspan="2">일본어 읽기</td>
+			<td>일본어 듣기</td>
+			<td rowspan="2">일본어 말하기</td>
+		</tr>
+		<tr>
+			<td>저녁</td>
+
+			<td>자율학습</td>
+
+			<td>자율학습</td>
+
+		</tr>
+
+
+
+
+	</table>
+</body>
+</html>

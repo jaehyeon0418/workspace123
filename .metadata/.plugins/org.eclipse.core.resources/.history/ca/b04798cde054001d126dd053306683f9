@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style>
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+/* 
+font-family: 'Jeju Gothic', sans-serif;
+}
+*/
+
+h1{
+color: red;
+}
+body{
+width: 650px;
+}
+h2{
+color: blue;
+text-align: center; 
+}
+div{
+background-color : #c5c7c9;
+}
+#first{
+color: orange;
+}
+.cls{
+color: red;
+}
+
+p{
+font-family: 'Jeju Gothic', sans-serif;
+}
+</style>
+</head>
+<body>
+<h1>날씨는 춥지만 마음은 따뜻하게</h1>
+<br>
+<p id = "first">겨울이 다가오면 일본 열도 전역을 차디찬 냉기가 뒤덮기 시작합니다. 대도시는 대부분 눈이 무척 드물지만, 주변을 둘러싼 산악 지대나 북쪽 지방은 갓 내린 가루눈이 담요처럼 지면을 덮을 때가 자주 있습니다.
+<br>
+<p class = "cls">따뜻한 옷을 충분히 챙겨서 춥지 않게 꽁꽁 싸매고 밖으로 나가 눈 축제와 스키, 스노보드도 즐기고, 편안한 온천 리조트에서 피로를 푸세요.
+
+<table>
+<tr>
+<td><img class=" lazyloaded" data-src="https://res.cloudinary.com/jnto/image/upload/w_670,h_450,fl_lossy,f_auto/v1513912416/yamagata/Yamagata502_5" style="width:300px;" src="https://res.cloudinary.com/jnto/image/upload/w_670,h_450,fl_lossy,f_auto/v1513912416/yamagata/Yamagata502_5"></td>
+<td><img class=" lazyloaded" data-src="https://res.cloudinary.com/jnto/image/upload/w_670,h_450,fl_lossy,f_auto/v1513912416/yamagata/Yamagata502_5" style="width:300px;" src="https://res.cloudinary.com/jnto/image/upload/w_670,h_450,fl_lossy,f_auto/v1513912416/yamagata/Yamagata502_5"></td>
+</tr>
+
+<tr>
+<td><img class=" lazyloaded" data-src="https://res.cloudinary.com/jnto/image/upload/w_670,h_450,fl_lossy,f_auto/v1513912416/yamagata/Yamagata502_5" style="width:300px;" src="https://res.cloudinary.com/jnto/image/upload/w_670,h_450,fl_lossy,f_auto/v1513912416/yamagata/Yamagata502_5"></td>
+<td><img class=" lazyloaded" data-src="https://res.cloudinary.com/jnto/image/upload/w_670,h_450,fl_lossy,f_auto/v1513912416/yamagata/Yamagata502_5" style="width:300px;" src="https://res.cloudinary.com/jnto/image/upload/w_670,h_450,fl_lossy,f_auto/v1513912416/yamagata/Yamagata502_5"></td>
+</tr>
+</table>
+
+<div>
+<h2>유용한 팁</h2>
+<ul>
+<li>겨울철 혹한은 지역마다 차이가 있지만 여행지가 어디든 따뜻한 겨울용 재킷은 필수</li>
+<li><p>새해 첫날을 전후한 연휴에는 대부분의 식당과 관광 명소가 휴무입니다. 미리 계획을 짜두어야 실망하지 않는 법</li>
+<li><p>겨울에만 맛볼 수 있는 제철 재료로 만든 푸짐한 전골 요리 나베와 맛있는 라멘 국물 등 추위를 달래주는 별미 즐기기</li>
+</ul>
+</div>
+
+</body>
+</html>

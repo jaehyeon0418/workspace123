@@ -1,0 +1,53 @@
+package p1011;
+
+import java.util.Scanner;
+
+public class J1011_06 {
+
+	public static void main(String[] args) {
+		//1. 성적 입력
+		//2. 성적 수정
+		//3. 성적 출력
+		//0. 종료
+		
+		// 1 변수 선언
+			// 2 )scan 숫자 입력받음
+			 	// 3 ) switch번호 선택으로 이동
+					// 4 ) 각 번호별 이동 후 프로그램 실행
+		
+		Scanner scan = new Scanner(System.in);
+		int choice = 0 ;
+		int kor = 0, eng = 0 , math = 0 , total = 0 ;
+		double avg = total / 3.0 ;
+		String name = "";
+		
+		System.out.println("[[성적 프로그램]]");
+		System.out.println("1. 성적 입렵");
+		System.out.println("2. 성적 수정");
+		System.out.println("3. 성적 출력");
+		System.out.println("0. 종료");
+
+		switch (choice) {
+			case 1 : 
+				System.out.println("이름을 입력하세요");
+				name = scan.nextLine();			
+				System.out.println("국어 점수를 입력하세요");
+				kor = scan.nextInt();
+				System.out.println("수학 점수를 입력하세요");
+				math = scan.nextInt();
+				System.out.println("영어 점수를 입력하세요");
+				eng = scan.nextInt();
+				scan.nextLine();
+				System.out.println("총 점수를 입력하세요");
+				total = scan.nextInt();
+				System.out.println("평균	:"+avg);
+				
+				break ; 
+		}
+				
+		
+		
+		
+	} //main
+
+} //class
