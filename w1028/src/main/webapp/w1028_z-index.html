@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>z-index</title>
+<style>
+
+div{ position: absolute;}
+.box1{
+width :100px; height:100px; background: red; top: 2s0px; left:200px; z-index: 1; 
+}
+.box2{
+width :100px; height:100px; background: tomato; top: 50px; left:260px;
+}
+.box3{
+width :100px; height:100px; background: green; top: 80px; left:230px; ; z-index: -1;
+}
+
+/* z 값이 크면 z 값이 낮은 값위에 스택이 쌓인다.*/
+
+
+</style>
+
+
+
+</head>
+<body>
+
+<div class = "box1"></div>
+<div class = "box2"></div>
+<div class = "box3"></div>
+
+
+</body>
+</html>

@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=C\:\\workspace\\p1012\\.git;C\:\\workspace\\p1025\\.git;
-GitRepositoriesView.GitDirectories.relative=p1012\\.git;p1025\\.git;
+GitRepositoriesView.GitDirectories=C\:\\workspace\\.git;C\:\\workspace\\p1012\\.git;C\:\\workspace\\p1025\\.git;
+GitRepositoriesView.GitDirectories.relative=.git;p1012\\.git;p1025\\.git;
 RepositoryGroups.uuids=
 eclipse.preferences.version=1

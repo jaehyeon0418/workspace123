@@ -29,11 +29,11 @@ public class J1013_04_01 {
 			}
 			smallStr = String.format("%d", num[i]);
 	
-			System.out.print(String.format(("%d "), num[i]);
+//			System.out.print(String.format(("%d "), num[i]);
 		}
 		
 		System.out.println(String.format("큰 수 : %d %s", big, bigStr));
-		System.out.println(String.format("작은 수 : %d %s", ());
+//		System.out.println(String.format("작은 수 : %d %s", ());
 		
 		
 		

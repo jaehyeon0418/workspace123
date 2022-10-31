@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>가상 클래스와 가상요소</title>
+<style>
+.box1 a:link{color : red;} /* 방문하지 않은 링크에 스타일 적용*/
+.box1 a:visited { color: green;} /*방문한 링크에 스타일 적용*/
+.box1 a:hover{font-size:50px;} /*커서를 올려놨을때 스타일 적용*/
+.box1 a:focus{font-size:italic;} /* 웹 요소에 초점을 맞추어졌을 떄 스타일 적용*/
+.box1 a:active{text-decoration: none;} /*웹요소가 활성화 됬을떄 스타일 적용*/
+.name :focus{background-color:red;}
+
+</style>
+
+</head>
+<body>
+<div class="box1">
+<ul>
+<li>web site</li>
+<li><a href = "http://www.naver.com/">Naver</a></li>
+<li><a href = "http://google.com/" >Google</a></li>
+<li><a href = "http://daum.net/" >Daum</a></li>
+<li><a href = "http://yahoo.co.jp/">Yahoo</a></li>
+</ul>
+<label> 이름 </label> <br>
+<input type="text" class="name">
+</div>
+
+</body>
+</html>

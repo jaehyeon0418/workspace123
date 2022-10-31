@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>레이 아웃</title>
+</head>
+<style>
+.box1 {
+	width: 200px; /* 고정너비 */
+	height: 100px;
+	background: orange;
+	border-radius : 25px;
+}
+
+.box2 {
+	width: 50%; /* 가변너비 - 브라우저 창 너비의 50% */
+	height: 100px;
+	background: blue;
+	border-radius : 5px;
+}
+
+h2 {
+	display: inline; /* 블록 레벨 요소를 인라인으로 처리*/
+	border : 5px solid red;
+	border-radius : 5px;
+}
+
+span {
+	display: block; /* 인라인 요소를 블록레벨로 처리 */
+	border : 5px solid red;
+	border-radius : 10px;
+}
+
+a {
+	width: 200px; /* 고정너비 */
+	height: 100px;
+	background: green;
+	display: inline-block; /* 인라인 블록형태를 만들어줘서 높이 너비를 지정할 수 있다,*/
+	border : 5px solid red;
+	border-radius : 15px;
+}
+
+div {
+	/* 
+	border-color: pink;
+	border-width: 3px;
+	border-style: solid; [dotted, dashed, 가장 많이 사용] dobule groove
+	*/
+	border : 5px solid red;
+	border-radius : 20px;
+}
+</style>
+<body>
+	<div class="box1"></div>
+	<div class="box2"></div>
+
+	<h2>HTML</h2>
+	<h2>CSS</h2>
+	<br>
+	<br>
+	<span>JAVA</span>
+	<span>JSP</span>
+	<br>
+	<a href="#">a-tag</a>안녕하세요 반갑습니다 잘 가세요
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+/* 
+transform:translateX(X) X축으로 이동
+transform:translatey(y) Y축으로 이동
+transform:translate(X,y) X,Y축으로 이동
+
+
+*/
+.mx:hover{ transform:translateX(50px);}
+.my:hover{ transform:translatey(50px);}
+.mxy:hover{ transform:translate(50px,20px);}
+
+.sx:hover{transform:scaleX(0.7);}
+.sy:hover{transform:scaleY(1.5);}
+.sxy:hover{transform:scale(0.3);}
+
+.r:hover{transform:rotate(-90deg);}
+.rx:hover{transform:rotateX(-70deg);}
+.ry:hover{transform:rotateY(-70deg);}
+.rz:hover{transform:rotateZ(-70deg);}
+
+.skx:hover{transform:skewX(30deg);}
+.sky:hover{transform:skewY(50deg);}
+.skxy:hover{transform:skew(20deg, 50deg);}
+
+.ori_rot{transform: rotateZ(10deg);}
+.to1 .ori_rot:hover{transform-origin: left top;} /* 왼족 상단 모서리 중심으로 10도 회전*/
+.to2 .ori_rot:hover{transform-origin: left bottom;} /* 왼족 하단 모서리 중심으로 10도 회전*/
+.to3 .ori_rot:hover{transform-origin: right top;} /* 오른쪽 상단 모서리 중심으로 10도 회전*/
+.to4 .ori_rot:hover{transform-origin: right bottom;} /* 오른쪽 하단 모서리 중심으로 10도 회전*/
+</style>
+</head>
+
+
+<body>
+<h2>라멘 late</h2>
+<div class = "origin">
+<div class = "mx"><img src="./images/토리파이탄.jfif"></div>
+</div>
+<div class = "origin">
+<div class = "my"><img src="./images/토리파이탄.jfif"></div>
+</div>
+<div class = "origin">
+<div class = "mxy"><img src="./images/토리파이탄.jfif"></div>
+</div>
+
+<h2>라멘2 scale</h2>
+<div class = "origin">
+<div class = "sx"><img src="./images/후쿠오카_이치란라멘_본점_23.jpg"></div>
+</div>
+<div class = "origin">
+<div class = "sy"><img src="./images/후쿠오카_이치란라멘_본점_23.jpg"></div>
+</div>
+<div class = "origin">
+<div class = "sxy"><img src="./images/후쿠오카_이치란라멘_본점_23.jpg"></div>
+</div>
+
+<h2>라멘3 Rotation</h2>
+<div class = "origin">
+<div class = "r"><img src="./images/이에케라멘.jfif"></div>
+</div>
+<br>
+<div class = "origin">
+<div class = "rx"><img src="./images/이에케라멘.jfif"></div>
+</div>
+<br>
+<div class = "origin">
+<div class = "ry"><img src="./images/이에케라멘.jfif"></div>
+</div>
+<br>
+<div class = "origin">
+<div class = "rz"><img src="./images/이에케라멘.jfif"></div>
+</div>
+
+<h2>라멘2 skew</h2>
+<div class = "origin">
+<div class = "skx"><img src="./images/후쿠오카_이치란라멘_본점_23.jpg"></div>
+</div>
+<div class = "origin">
+<div class = "sky"><img src="./images/후쿠오카_이치란라멘_본점_23.jpg"></div>
+</div>
+<div class = "origin">
+<div class = "skxy"><img src="./images/후쿠오카_이치란라멘_본점_23.jpg"></div>
+</div>
+
+<h2>라멘3 Transform-origin</h2>
+<div class = "origin">
+<div class = "to1"><img src="./images/이에케라멘.jfif" class="ori_rot"></div>
+</div>
+<br>
+<div class = "origin">
+<div class = "to2"><img src="./images/이에케라멘.jfif" class="ori_rot"></div>
+</div>
+<br>
+<div class = "origin">
+<div class = "to3"><img src="./images/이에케라멘.jfif" class="ori_rot"></div>
+</div>
+<br>
+<div class = "origin">
+<div class = "to4"><img src="./images/이에케라멘.jfif" class="ori_rot"></div>
+</div>
+
+
+</body>
+</html>

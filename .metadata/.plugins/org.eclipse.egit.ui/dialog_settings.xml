@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="CommitDialog.authorValues">
+		<item value="jaehyeon0418 &lt;jaehyeon0418@naver.com&gt;"/>
 		<item value="강의장D_PC020 &lt;강의장D_PC020@DESKTOP-ISJHFKJ&gt;"/>
 	</list>
 	<list key="CommitDialog.committerValues">
+		<item value="jaehyeon0418 &lt;jaehyeon0418@naver.com&gt;"/>
 		<item value="강의장D_PC020 &lt;강의장D_PC020@DESKTOP-ISJHFKJ&gt;"/>
+	</list>
+	<list key="EGit.KnownHosts">
+		<item value="git.eclipse.org"/>
+		<item value="github.com"/>
+		<item value="bitbucket.org"/>
+	</list>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="https://github.com/jaehyeon0418/java_class.git"/>
 	</list>
 	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
 		<item key="MAIN_SASH_FORM_ORIENTATION_VERTICAL" value="false"/>
@@ -13,5 +23,15 @@
 		<item key="sortItemState" value="false"/>
 	</section>
 	<section name="GitCommitMessageComponent">
+		<list key="C:\workspace\p1025\.git">
+			<item value="true"/>
+			<item value="jaehyeon0418 &lt;115534747+jaehyeon0418@users.noreply.github.com&gt;"/>
+			<item value=""/>
+			<item value="jaehyeon0418 &lt;jaehyeon0418@naver.com&gt;"/>
+			<item value="6822595656adf7c8733e9d0cdfe2647f759d72a9"/>
+			<item value="0"/>
+			<item value="true"/>
+			<item value=""/>
+		</list>
 	</section>
 </section>
