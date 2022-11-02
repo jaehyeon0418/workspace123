@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+
+
+ul li{float:left;  list-style:none; margin-left: 10px; }
+@media (max-width: 700px){
+.im01{display:none;}
+}
+@media (max-width: 700px){
+.im02{display: none;}
+}
+@media (max-width: 700px){
+.toplist{display: none;}
+}
+
+.topimg {width:90%; height:150px;}
+.bottomimg{width :90%; height:300px;}
+.box1 {float: left; }
+.im01 {width:200px; height:200px; background: url('./images/아냐.jpg');
+	background-position: -30px -30px; background-size: 250px; border: 1px solid black;
+	transition-property: all;
+	transition-duration: 2s; 														}
+.im02 {width:200px; height:200px; background: url('./images/이에케라멘.jfif');
+	background-position: -30px -30px; background-size: 250px; border: 1px solid black;
+	transition-property: all;
+	transition-duration: 2s; 														}
+
+.im03 {width:200px; height:200px; background: url('./images/토리파이탄.jfif');
+	background-position: -30px -30px; background-size: 250px; border: 1px solid black;
+	transition-property: all;
+	transition-duration: 2s; 														}
+.im04 {width:200px; height:200px; background: url('./images/후쿠오카_이치란라멘_본점_23.jpg');
+	background-position: -30px -30px; background-size: 250px; border: 1px solid black;
+	transition-property: all;
+	transition-duration: 2s; 														}
+
+
+	
+.im:hover{transform:scale(1.5);}
+.txt{clear:both; width: 150px; height:50px; font-size: 20px; text-align: center; line-height:50px;}
+
+</style>
+</head>
+<body>
+<header>
+<ul class="toplist">
+<li><img src="//asset.japan.travel/image/upload/v1581485582/static/svg/common/img_logo_japan-endless-discovery.svg" width="30%" alt="JNTO" class="mod-header__brand-img svg-fit"></li>
+<li>여행지</li>
+<li>즐길거리</li>
+<li>여행 계획하기</li>
+<li>최신 뉴스</li>
+<li><input type="text" name="txt" placeholder="검색" maxlength="5"></li>
+</ul>
+
+</header>
+
+	<div>
+	<div class="topimg"></div>
+	<div class="bottomimg">
+		<div class="box1">
+			<div class="im">
+				<div class="im01"></div>
+			</div>
+			<div class="txt">1월의 일본</div>
+		</div>
+		<div class="box1">
+			<div class="im">
+				<div class="im02"></div>
+			</div>
+			<div class="txt">2월의 일본</div>
+		</div>
+		<div class="box1">
+			<div class="im">
+				<div class="im03"></div>
+			</div>
+			<div class="txt">3월의 일본</div>
+		</div>
+		<div class="box1">
+			<div class="im">
+				<div class="im04"></div>
+			</div>
+			<div class="txt">4월의 일본</div>
+		</div>
+	</div>
+	</div>
+</body>
+</html>
